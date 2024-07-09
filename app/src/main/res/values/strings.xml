@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Notes App</string>
+    <string name="made_by_sarthak_kimtani">Made By Sarthak Kimtani</string>
+    <string name="add_note">Add Note</string>
+    <string name="delete">Delete</string>
+    <string name="note_content">Note Content</string>
+    <string name="note_title">Note Title</string>
+</resources>
