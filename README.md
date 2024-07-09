@@ -27,7 +27,7 @@ These instructions will help you set up the project on your local machine for de
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/NotesApp.git
+   git clone https://github.com/sarthakkimtani/notes-app.git
     ```
 
 2. **Open the project in Android Studio:**
