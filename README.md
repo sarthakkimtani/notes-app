@@ -10,8 +10,8 @@ Notes App is a simple Android application for managing personal notes. This proj
 - Delete notes
 
 ## Screenshots
-<img src="screenshots/1.jpg" height="300em" alt="Image 1" /> <img src="screenshots/2.jpg" height="300em" alt="Image 2" /> <img src="screenshots/3.jpg" height="300em" alt="Image 3" />
-
+<img src="screenshots/1.png" height="300em" alt="Image 1" /> <img src="screenshots/2.png" height="300em" alt="Image 2" /> <img src="screenshots/3.png" height="300em" alt="Image 3" />
+   
 ## Getting Started
 
 These instructions will help you set up the project on your local machine for development and testing purposes.

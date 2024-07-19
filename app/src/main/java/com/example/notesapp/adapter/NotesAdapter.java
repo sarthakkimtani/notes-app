@@ -3,6 +3,7 @@ package com.example.notesapp.adapter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
@@ -41,6 +42,7 @@ public class NotesAdapter extends RecyclerView.Adapter<NotesAdapter.NoteViewHold
         holder.contentTextView.setText(note.getContent());
 
         holder.itemView.setOnClickListener(v -> updateListener.onNoteClick(note));
+        holder.editButton.setOnClickListener(v -> updateListener.onNoteClick(note));
         holder.deleteButton.setOnClickListener(v -> deleteListener.onNoteClick(note));
     }
 
@@ -52,12 +54,14 @@ public class NotesAdapter extends RecyclerView.Adapter<NotesAdapter.NoteViewHold
     public static class NoteViewHolder extends RecyclerView.ViewHolder {
         public TextView titleTextView;
         public TextView contentTextView;
-        public View deleteButton;
+        public ImageButton editButton;
+        public ImageButton deleteButton;
 
         public NoteViewHolder(View view) {
             super(view);
             titleTextView = view.findViewById(R.id.note_title);
             contentTextView = view.findViewById(R.id.note_content);
+            editButton = view.findViewById(R.id.btn_edit_note);
             deleteButton = view.findViewById(R.id.btn_delete_note);
         }
     }
